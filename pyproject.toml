@@ -35,4 +35,4 @@ build-backend = "setuptools.build_meta"
 oracle-mcp-server = "main:main"
 
 [tool.setuptools]
-py-modules = ["main"]
+py-modules = ["main", "db_context"]
