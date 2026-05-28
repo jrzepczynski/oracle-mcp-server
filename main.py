@@ -507,5 +507,8 @@ async def explain_query_plan(sql: str, ctx: Context) -> str:
     except Exception as e:
         return wrap_untrusted(f"Unexpected error obtaining plan: {e}")
 
-if __name__ == "__main__":
+def main():
     mcp.run()
+
+if __name__ == "__main__":
+    main()
