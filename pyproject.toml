@@ -39,4 +39,4 @@ py-modules = ["main"]
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["db_context*"
+include = ["db_context*"]
